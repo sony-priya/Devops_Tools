@@ -1,5 +1,0 @@
-Pushing an empty <src> allows you to delete the <dst> ref from the remote repository. Deletions are always accepted without a leading + in the refspec (or --force), except when forbidden by configuration or hooks. See receive.denyDeletes in git-config(1) and pre-receive and update in githooks(5).
-
-The special refspec : (or +: to allow non-fast-forward updates) directs Git to push "matching" branches: for every branch that exists on the local side, the remote side is updated if a branch of the same name already exists on the remote side.
-
-tag <tag> means the same as refs/tags/<tag>:refs/tags/<tag>.
