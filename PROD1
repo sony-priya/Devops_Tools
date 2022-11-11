@@ -66,6 +66,9 @@ project and configuration details used by maven to build the project.
 </dependencies>
  </build>
 
+ plugin tag -> tells the goals which we execute and also the required libraries were called
+ maven-sure-fire-plugin is useful for running test cases.
+ All the plugin are inside build tag
 Transitive dependency:
  the dependecncies also require a dependency to run and the dependent dependency will be loaded once the main dependency is used
  Eg: for junit the transitive dependency is hamcrest-core.
@@ -74,3 +77,20 @@ Repositories:
  Maven central repository  is the source of all dependencies
  local repository -> .m2 directory
  enterprise repository stores the dependencies of all projects.
+
+* we can use own archetype template for the project and to list all execute the below command:
+mvn archetype:generate. post which filter out for the exact archetype.
+
+maven settings.XML:
+it contains the elements which used to define values that can be used globally. It helps maven to execute in various ways.
+we can specify in below locations
+    ${MAVEN_HOME}/conf/settings.xml
+    ${user.home}/.m2/settings.xml
+you can give the credentials in settings.xml file
+<servers>
+    <server>
+        <id>Tomcat</id>
+        <username>admin</username>
+        <password>admin</password>
+    </server>
+</server>
