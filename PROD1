@@ -1,1 +1,10 @@
-PROD1file is being created
+Maven is a Build tool which helps in creating artifact from the code.
+Maven has jdk depedency. 
+Maven has default archetype. Archetype is called as Maven project template toolkit
+mvn archetype:generate
+Maven co ordinates:
+
+group id: general unique name for project in a organization (like org.apache.maven i.e., the company name in reverse format). The project id can be same
+Artifact id: name of the package and it should be different
+version: whenever we release the code  the version number varies.
+package: it is given as groupis: artifactid:versionid
