@@ -94,3 +94,5 @@ you can give the credentials in settings.xml file
         <password>admin</password>
     </server>
 </server>
+</settings>
+maven tomcat7:deploy (plugin:goal) we run this to run the build
