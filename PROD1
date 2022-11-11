@@ -72,5 +72,5 @@ Transitive dependency:
 
 Repositories:
  Maven central repository  is the source of all dependencies
- local repository
+ local repository -> .m2 directory
  enterprise repository stores the dependencies of all projects.
