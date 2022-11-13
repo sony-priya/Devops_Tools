@@ -23,3 +23,16 @@ How sonarqube works:
 sonarscanner.properties file exists in source code.
 sonar scanner pulls rules from sonarcude and runs on the code post which it generates the reports. THe reports will be sent to sonardb and graphs can be viewed via GUI
 port: 9000
+
+what is quality profile:
+it is the set of rules which we can use and we can also set the severity (major/minor) and can activate the rules to the quality profile.
+
+quality gateway:
+it is used to predict the bugs and we will know whether the code is passing through the gateway by passing the giving threshold or not.
+EG: coverage is less than 80%
+duplicated lines less than 3%
+reusability rating worse than A
+security hotspot less than 100%
+security rating less than A then it will fail
+
+codev covergae : if test cases are covering 95 lines of code then code coverage is 95%
