@@ -1,1 +1,25 @@
+what is code quality?
+to validate the quality code it depends on whetehr it's bug free code or not is it secure or not/ duplications avoided (reusanility)/tested properly / is it complex code
+/ is it easy to integrate with others code.
 
+to review the quality of code, static code analysis comes into picture.   
+
+STATIC code Analysis:
+the main tools are  sonarqube, coverty, raxis, veracode, codesense. 
+ADV of sonar qube:
+it's a quality management tools. Apart from code analysis it gathers the reports (test reports)of verious testing.
+
+components of sonar qube:
+1. Rules : Instructions to be followed while writing code. Tehre are many default rules comes with sonarqube installation.
+2.database: The analysis report of rules after running on the code will be dtores in db.
+3. Web interface: the reports can be viewed in GUI.
+we have elastic search which helps to search required data from sonarqube db
+
+sonar scanner:
+It is a service/ agent which run on agaent where source code exists. it runs and scan the code and the reports are published in sonarqube.
+sonar scanner helps to scans the code in different lanaguages.
+
+How sonarqube works:
+sonarscanner.properties file exists in source code.
+sonar scanner pulls rules from sonarcude and runs on the code post which it generates the reports. THe reports will be sent to sonardb and graphs can be viewed via GUI
+port: 9000
