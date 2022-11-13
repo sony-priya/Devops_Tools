@@ -36,3 +36,4 @@ security hotspot less than 100%
 security rating less than A then it will fail
 
 codev covergae : if test cases are covering 95 lines of code then code coverage is 95%
+netstat -tulpn -> to see the which service is using ports
