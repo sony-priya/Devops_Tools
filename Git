@@ -1,0 +1,8 @@
+git status -> shows current status of your repository
+git log -> shows the commit history
+git add -> add files into staging area
+git commit -> add files into local vcs.
+git diff -> difference bettween the staged files and working directpry
+git diff --staged -> shows the diff between staged and local repo
+ git diff HEAD-> diffference between working dir with local repository(HEAD)
+GIT STAGES:
