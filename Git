@@ -5,4 +5,18 @@ git commit -> add files into local vcs.
 git diff -> difference bettween the staged files and working directpry
 git diff --staged -> shows the diff between staged and local repo
  git diff HEAD-> diffference between working dir with local repository(HEAD)
-GIT STAGES:
+
+cat .git/config -> configuration file
+git remote add origin https://sonypriya.vdhvgkfh@git -> to add remote directory
+git branch --set-upstream-to=origin/master master ->local always use master to merge code
+
+Git commits:
+
+in commit , always the head is at recent commit, so the earlier ones will be head~1, head~2
+git diff HEAD HEAD~2
+git show HEAD/HEAD~1-> shows the status of commitid
+git annotate filename - > shows who performed the changes and commitid
+
+Branching startegy:
+git branch new
+
